@@ -24,6 +24,41 @@ Download the project
 1) Set up the project
     First you’ll need to setup a Java project for Maven to build. To keep the focus on Maven, make the project as simple as possible for now. Create this structure in a project folder of your choosing.
 
+2) Create the directory structure
+    In a project directory of your choosing, create the following subdirectory structure; for example, with mkdir -p src/main/java/hello on nix systems
+    |
+    --src
+       |
+       --main
+           |
+           --java
+               |
+               --hello
+    within the src/main/java/hello directory, you can create any Java classes you want
+    To maintain consistency with the rest of this guide, create these two classes:
+    HelloWorld.java and Greeter.java
+
+    Now that you have a project that is ready to be built with Maven, the next step is to install Maven
+
+    Maven is downloadable as a zip file at
+    https://maven.apache.org/download.cgi. Only the binaries are required, so look for the link to apache-maven-{version}-bin.zip or apache-maven-{version}-bin.tar.gz.
+
+    Once you have downloaded the zip file, unzip it to your computer. Then add the bin folder to your path.
+
+    To test the Maven installation, run mvn from the command-line:
+
+    mvn -v
+    If all goes well, you should be presented with some information about the Maven installation. It will look similar to (although perhaps slightly different from) the following:
+
+    Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T16:41:47+00:00)
+    Maven home: /home/dsyer/Programs/apache-maven
+    Java version: 1.8.0_152, vendor: Azul Systems, Inc.
+    Java home: /home/dsyer/.sdkman/candidates/java/8u152-zulu/jre
+    Default locale: en_GB, platform encoding: UTF-8
+    OS name: "linux", version: "4.15.0-36-generic", arch: "amd64", family: "unix"
+    Congratulations! You now have Maven installed.
+
+    INFO: You might like to consider using the Maven wrapper to insulate your developers against having the correct version of Maven, or having to install it at all. Projects downloaded from Spring Initializr have the wrapper included. It shows up as a script mvnw in the top level of your project which you run in place of mvn.
 
 
 
