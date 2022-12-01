@@ -1,0 +1,30 @@
+Building Java Projects with Maven
+    This guide walks you through using Maven to build a simple Java project.
+
+What you’ll build
+    You’ll create an application that provides the time of day and then build it with Maven.
+
+Download the project
+    git clone https://github.com/spring-guides/gs-maven.git
+    cd initial
+    mvn -v
+        Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+         Maven home: /usr/local/Cellar/maven/3.8.6/libexec
+         Java version: 18.0.2.1, vendor: Homebrew, runtime: /usr/local/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home
+         Default locale: en_FR, platform encoding: UTF-8
+         OS name: "mac os x", version: "12.2.1", arch: "x86_64", family: "mac"
+    cd ..
+    cd complete
+    mvn -v
+        Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+        Maven home: /usr/local/Cellar/maven/3.8.6/libexec
+        Java version: 18.0.2.1, vendor: Homebrew, runtime: /usr/local/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home
+        Default locale: en_FR, platform encoding: UTF-8
+        OS name: "mac os x", version: "12.2.1", arch: "x86_64", family: "mac"
+1) Set up the project
+    First you’ll need to setup a Java project for Maven to build. To keep the focus on Maven, make the project as simple as possible for now. Create this structure in a project folder of your choosing.
+
+
+
+
+
