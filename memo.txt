@@ -143,4 +143,7 @@ Download the project
 8) Error LocalTime
     LocalTime(int, int, int, int)' has private access in 'java.time.LocalTime'
 
+9) Solution LocalTime
+  LocalTime currentTime = new LocalTime();
+    => LocalTime currentTime = LocalTime.now();
 
