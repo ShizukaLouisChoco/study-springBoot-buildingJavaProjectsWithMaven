@@ -14,11 +14,21 @@
     </properties>
 
     <dependencies>
+        <!--tag::joda[]-->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>2.12.1</version>
         </dependency>
+        <!--en::joda[]-->
+        <!--tag::junit[]-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!--end::junit-->
     </dependencies>
     <build>
         <plugins>
